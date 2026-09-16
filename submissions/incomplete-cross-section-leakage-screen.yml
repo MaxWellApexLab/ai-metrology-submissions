@@ -64,37 +64,48 @@ references:
   # addresses the same statistical structure but estimates the true value rather than
   # flagging a cross-section, is listed after them.
   - >-
-    PRIMARY METHODOLOGICAL SPECIFICATION. Defines and measures incomplete-cross-section
-    leakage, including the arrival-order association statistic, the permutation noise
-    floor and the flagging threshold used by this screen; ships 13 analysis scripts.
-    Preprint by the submitter, not peer reviewed.
+    PRIMARY METHODOLOGICAL SPECIFICATION. Wu, K.-T. (2026), "Measuring
+    Incomplete-Cross-Section Leakage: A Matched Placebo, a Susceptibility Screen, and
+    Evidence from Taiwan and US As-Filed Data that the Channel Is Benign and
+    Correctable". Defines and measures incomplete-cross-section leakage, including the
+    arrival-order association statistic, the permutation noise floor and the flagging
+    threshold used by this screen; ships 13 analysis scripts. Preprint by the
+    submitter, not peer reviewed.
     https://doi.org/10.6084/m9.figshare.33061955
   - >-
-    Correct-by-construction point-in-time factor computation. Preprint by the
-    submitter, not peer reviewed.
+    Wu, K.-T. (2026), "Correct-by-Construction Factor Computation: A Verifiably
+    Point-in-Time Engine for Tradeable Signals". Preprint by the submitter, not peer
+    reviewed.
     https://doi.org/10.6084/m9.figshare.32952482
   - >-
-    Susceptibility-graded release control. Preprint by the submitter, not peer reviewed.
+    Wu, K.-T. (2026), "Susceptibility-Graded Release Control: Preventing
+    Incomplete-Cross-Section Leakage in Financial Machine-Learning Pipelines without a
+    Blanket Timeliness Penalty". Preprint by the submitter, not peer reviewed.
     https://doi.org/10.6084/m9.figshare.33158615
   - >-
-    Independent, peer reviewed. Rubin (1976), Inference and Missing Data. General
-    framework for ignorability; this screen operationalises a test of whether a
-    cross-section violates that assumption.
+    Independent, peer reviewed. Rubin, D. B. (1976), "Inference and missing data",
+    Biometrika 63(3). General framework for ignorability; this screen operationalises a
+    test of whether a cross-section violates that assumption.
     https://doi.org/10.1093/biomet/63.3.581
   - >-
-    Independent, peer reviewed. Hoehle and an der Heiden (2014), Bayesian nowcasting
-    during the STEC O104:H4 outbreak. Same statistical structure of a right-truncated,
-    reporting-delayed cross-section, addressed by estimation rather than by screening.
+    Independent, peer reviewed. Hoehle, M. and an der Heiden, M. (2014), "Bayesian
+    nowcasting during the STEC O104:H4 outbreak in Germany, 2011", Biometrics 70(4).
+    Same statistical structure of a right-truncated, reporting-delayed cross-section,
+    addressed by estimation rather than by screening.
     https://doi.org/10.1111/biom.12194
   - >-
-    Independent, peer reviewed. Harton, Mitra and Hubbard (2022), Informative presence
-    bias in analyses of electronic health records-derived data. Established term for
-    systematic differences between observed and not-yet-observed units.
+    Independent, peer reviewed. Harton, J., Mitra, N. and Hubbard, R. A. (2022),
+    "Informative presence bias in analyses of electronic health records-derived data: a
+    cautionary note", Journal of the American Medical Informatics Association 29(7).
+    Established term for systematic differences between observed and not-yet-observed
+    units.
     https://doi.org/10.1093/jamia/ocac050
   - >-
-    Independent, peer reviewed. Kaufman, Rosset, Perlich and Stitelman (2012), Leakage
-    in Data Mining. General leakage taxonomy; its subtypes concern features or labels
-    crossing a time boundary, not selective incompleteness of the cross-section itself.
+    Independent, peer reviewed. Kaufman, S., Rosset, S., Perlich, C. and Stitelman, O.
+    (2012), "Leakage in data mining: formulation, detection, and avoidance", ACM
+    Transactions on Knowledge Discovery from Data 6(4). General leakage taxonomy; its
+    subtypes concern features or labels crossing a time boundary, not selective
+    incompleteness of the cross-section itself.
     https://doi.org/10.1145/2382577.2382579
 implementation_resources:
   - https://github.com/MaxWellApexLab/pit-release-gate
