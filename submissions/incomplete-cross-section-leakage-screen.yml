@@ -57,20 +57,48 @@ modality:
 
 # --- Section 3: Provenance, tooling, and requirements ---
 references:
+  # Primary methodological specification for this screen. This is a newly proposed
+  # method; to the submitter's knowledge no independent or peer-reviewed reference
+  # describes this specific screen. The three figshare items below are preprints by
+  # the submitter and are not peer reviewed. Independent adjacent literature, which
+  # addresses the same statistical structure but estimates the true value rather than
+  # flagging a cross-section, is listed after them.
   - >-
-    Correct-by-construction point-in-time factor computation.
-    https://doi.org/10.6084/m9.figshare.32952482
-  - >-
-    Defines and measures incomplete-cross-section leakage; ships 13 analysis scripts.
+    PRIMARY METHODOLOGICAL SPECIFICATION. Defines and measures incomplete-cross-section
+    leakage, including the arrival-order association statistic, the permutation noise
+    floor and the flagging threshold used by this screen; ships 13 analysis scripts.
+    Preprint by the submitter, not peer reviewed.
     https://doi.org/10.6084/m9.figshare.33061955
   - >-
-    Susceptibility-graded release control.
+    Correct-by-construction point-in-time factor computation. Preprint by the
+    submitter, not peer reviewed.
+    https://doi.org/10.6084/m9.figshare.32952482
+  - >-
+    Susceptibility-graded release control. Preprint by the submitter, not peer reviewed.
     https://doi.org/10.6084/m9.figshare.33158615
+  - >-
+    Independent, peer reviewed. Rubin (1976), Inference and Missing Data. General
+    framework for ignorability; this screen operationalises a test of whether a
+    cross-section violates that assumption.
+    https://doi.org/10.1093/biomet/63.3.581
+  - >-
+    Independent, peer reviewed. Hoehle and an der Heiden (2014), Bayesian nowcasting
+    during the STEC O104:H4 outbreak. Same statistical structure of a right-truncated,
+    reporting-delayed cross-section, addressed by estimation rather than by screening.
+    https://doi.org/10.1111/biom.12194
+  - >-
+    Independent, peer reviewed. Harton, Mitra and Hubbard (2022), Informative presence
+    bias in analyses of electronic health records-derived data. Established term for
+    systematic differences between observed and not-yet-observed units.
+    https://doi.org/10.1093/jamia/ocac050
+  - >-
+    Independent, peer reviewed. Kaufman, Rosset, Perlich and Stitelman (2012), Leakage
+    in Data Mining. General leakage taxonomy; its subtypes concern features or labels
+    crossing a time boundary, not selective incompleteness of the cross-section itself.
+    https://doi.org/10.1145/2382577.2382579
 implementation_resources:
   - https://github.com/MaxWellApexLab/pit-release-gate
   - https://pypi.org/project/pit-release-gate/
-  - >-
-    pit-release-gate docs/results-schema.md: the pit-screen-results v1.0 results-record
-    schema referenced above
+  - https://github.com/MaxWellApexLab/pit-release-gate/blob/master/docs/results-schema.md
   - https://github.com/MaxWellApexLab/pit-audit-registry
 usage_rights: MIT License
